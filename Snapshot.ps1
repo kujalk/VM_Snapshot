@@ -24,9 +24,9 @@ P.S - Decryption is only possible in the same machine where the encryption is do
 #>
 
 #Global variables
-$global:user_name="dcskug"
+$global:user_name="user1"
 $global:password="E:\Snapshots\password.txt"
-$global:esxi_servers=@("193.168.3.201","193.168.3.202","193.168.3.203")
+$global:esxi_servers=@("192.168.5.231","192.168.5.202","192.168.5.213")
 $global:html_path="E:\Snapshots\vm_snapshots_encrypt.html"
 $global:outItems = New-Object System.Collections.Generic.List[System.Object] #List to store all details
 
